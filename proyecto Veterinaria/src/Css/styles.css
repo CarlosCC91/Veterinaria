@@ -1,0 +1,576 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: #e9f9ffb9;
+}
+
+.logo{
+    width: 520px; /* Ajusta el ancho */
+    height: auto; /* ev ita que se deforme */
+    margin: 25px;    
+}
+
+.logo2{
+    width: 420px; 
+    height: auto; 
+    margin-right: 60px;
+}
+
+.certificado1, .certificado2, .certificado3 {
+    position: block; 
+    border-radius: 50%; /* Hace la imagen completamente redonda */
+    border: 3px solid #007c91; 
+    width: 160px; /* Ajusta el tamaño de la imagen si es necesario */
+    height: 160px;
+    object-fit: cover; /* Asegura que la imagen encaje bien dentro del borde redondo */
+    margin: 10px;
+  }
+
+.foto1 {
+    width: 100%; /* Ocupa el 100% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Evita el espacio en la parte inferior de la imagen */
+    margin: 0; 
+    padding: 0; 
+    object-fit: cover; /* Asegura que la imagen cubra todo el espacio disponible */
+}
+.nosotros1 {
+    width: auto; /* Ocupa el 100% del ancho del contenedor */
+    height: 600px; /* Mantiene la proporción de la imagen */
+    display: block; /* Evita el espacio en la parte inferior de la imagen */
+    margin: 0; /* Elimina márgenes */
+    padding: 0; /* Elimina rellenos */
+    object-fit: cover; /* Asegura que la imagen cubra todo el espacio disponible */
+    border-radius: 22px;
+}
+
+
+.nosotros1-text {
+    width: 50%; /* Ocupa la mitad del ancho del contenedor */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: #333;
+     line-height: 1.6; /* Mejora el espaciado entre líneas */
+     max-width: 700px; /* Limita el ancho del contenido para mejor lectura */
+     height: auto;
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    padding: 20px; /* Añade espacio alrededor del contenido */
+    border-radius: 10px; /* Bordes redondeados para un aspecto más suave */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8); /* Sombra sutil para profundidad */
+}
+.nosotros2-text {
+    width: 40%; /* Ocupa la mitad del ancho del contenedor */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: #333;
+     line-height: 1.6; /* Mejora el espaciado entre líneas */
+    max-width: 700px; /* Limita el ancho del contenido para mejor lectura */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    padding: 20px; /* Añade espacio alrededor del contenido */
+    border-radius: 10px; /* Bordes redondeados para un aspecto más suave */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8); /* Sombra sutil para profundidad */
+    
+}
+.nosotros3-text {
+    width: 40%; /* Ocupa la mitad del ancho del contenedor */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: #333;
+     line-height: 1.6; /* Mejora el espaciado entre líneas */
+    max-width: 700px; /* Limita el ancho del contenido para mejor lectura */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    padding: 20px; /* Añade espacio alrededor del contenido */
+    border-radius: 10px; /* Bordes redondeados para un aspecto más suave */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8); /* Sombra sutil para profundidad */
+    
+}
+
+.nosotros2 {
+    width: auto; /* Ocupa el 100% del ancho del contenedor */
+    height: 500px; /* Mantiene la proporción de la imagen */
+    display: block; /* Evita el espacio en la parte inferior de la imagen */
+    object-fit: cover; /* Asegura que la imagen cubra todo el espacio disponible */
+    margin-left: 100px; /* Ajusta este valor según sea necesario */
+    border-radius: 22px;
+    
+}
+.nosotros1-container {
+    display: flex;
+    align-items: center; /* Alinea verticalmente al centro */
+    justify-content: space-between; /* Coloca el texto a la izquierda y la imagen a la derecha */ 
+    margin: 40px;
+    
+}
+.nosotros2-container{
+    display: flex;
+    align-items: center; /* Alinea verticalmente al centro */
+    justify-content: space-between; 
+    padding: 20px; /* Añade algo de espacio alrededor */
+    margin: 40px;
+}
+.nosotros3-container {
+    display: flex;
+    align-items: center; /* Alinea verticalmente al centro */
+    justify-content: space-between; /* Coloca el texto a la izquierda y la imagen a la derecha */
+    padding: 15px; /* Añade algo de espacio alrededor */
+  
+}
+.nosotros3 {
+    width: 40%; /* Ocupa el 100% del ancho del contenedor */
+    height: 450px; /* Mantiene la proporción de la imagen */
+    display: block; /* Evita el espacio en la parte inferior de la imagen */
+    align-items: center; /* Alinea verticalmente al centro */
+    
+    margin-right: 120px;
+    object-fit: cover; /* Asegura que la imagen cubra todo el espacio disponible */
+    border-radius: 22px;    
+}
+
+.Header1{
+    /* Establecer la familia de fuentes para todo el cuerpo */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* Fondo del encabezado de color blanco semitransparente */
+    /* Color del texto del encabezado */
+    color: black;
+    /* Añadir espacio dentro del encabezado */
+    padding: 20px;
+    margin: 0;
+    background-color: #e9f9ffb9;
+}
+.Header2{
+    background-color: #17A2B8;
+    --lt-color-white: #ffffffc0;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: block;
+    padding-right: 1rem ;
+    padding-top: 1.5rem ;
+    padding-bottom: 1.5rem;
+    font-weight: 700 ; /* opacidad del texto*/
+    color: #fff;
+    }
+
+    .lista {
+    justify-content: center     ;
+    }
+.Header3{
+    text-align: center;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Header4{
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    background-color: #11B4B7;
+    color: white;
+    padding-right: 1rem ;
+    padding-left: 1rem ;
+    padding-top: 1rem ;
+    padding-bottom: 1rem;
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+.Header4 a {
+    color: inherit; /* Hereda el color del texto del contenedor */
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+.Header4:hover{
+ background-color: #0F8B8D; /* Color de fondo al pasar el mouse */
+}
+/* Estilos del modal */
+.modal {
+    display: none; /* Oculto por defecto */
+    position: fixed; /* Queda fijo en la pantalla */
+    z-index: 1; /* Se superpone a otros elementos */
+    left: 0;
+    top: 0;
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Alto completo */
+    background-color: rgba(0,0,0,0.5); /* Fondo negro con opacidad */
+
+}
+
+.modal-content {
+    background-color: #1cb5b8da; 
+    margin: 50px auto; /* Margen superior y centrado horizontal */
+    padding: 25px; /* Espaciado  */
+    border: 1px solid #97d5ee; /* Borde  */
+    border-radius: 25px;
+    width: 40%; /* Ancho del modal */
+    display: flex;
+    justify-content: center;   
+    height: auto;
+    position: relative;
+    
+}
+.formulario{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 40%; 
+    margin-left:  auto; 
+    flex-direction: column; 
+    display: flex;
+    padding: 20px;
+    height: auto; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.formulario textarea {
+    width: calc(100% - 20px); /* Ancho igual para inputs y textarea, con espacio para padding */
+    padding: 10px; /* Padding dentro de los cuadros de entrada */
+    box-sizing: border-box; /* Incluye padding en el tamaño total */
+    display: flex;
+}
+.formulario input{
+    width: 95%; /* Ancho igual para inputs y textarea, con espacio para padding */
+    padding: 7px; /* Padding dentro de los cuadros de entrada */
+    box-sizing: border-box; /* Incluye padding en el tamaño total */
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.formulario label {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14pt;
+}
+
+.logomodal{
+    height: auto;
+    position: absolute; 
+    bottom: 15px;   
+    left: 15px; 
+}
+
+.fotomodal {
+    width: 50%;
+    position:relative;
+    align-content: bottom;
+    margin: 0;
+    padding: 30px;
+}
+
+.modal-content h2 {
+    display: flex  ;
+    position: absolute;
+    left: 30px;
+    font-size: 28pt;
+    top: 65px;
+}
+
+
+.close {
+    color: white; /* Color del botón de cerrar */    
+    font-size: 25pt; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    position: absolute;
+    right: 15px;
+    top: 0px;
+}
+
+.close:hover,.close:focus {
+    color: white; /* Cambiar color al pasar el mouse */
+    text-decoration: none; /* Sin subrayado */
+    cursor: pointer; /* Cambiar cursor */
+}
+
+
+nav{
+    width: 100%;
+    /* Usar flexbox para alinear elementos en el encabezado */
+    display: flex;
+    /* Alinear verticalmente los elementos */
+    align-items: center;
+    flex-wrap: wrap;    
+}
+
+
+
+
+nav ul.Menu {
+    /* Quitar el estilo de lista por defecto */
+    list-style: none;
+    /* Usar flexbox para distribuir uniformemente los elementos */
+    display: flex;
+    /* Permite que los elementos se distribuyan en varias filas */
+    flex-wrap: wrap; 
+    justify-content: center;
+    /* Eliminar márgenes y relleno de la lista */
+margin: 10px;
+    padding: 0;
+    
+}
+nav ul.Menu li {
+    width: 26%; /* Cada elemento ocupará aproximadamente un tercio del ancho */
+    text-align: center; /* Alinear los textos de los elementos al centro */
+    margin-bottom: 20px; /* Añadir un espacio entre las filas */
+    font-size: 17pt;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-shadow: black 0.03em 0.06em 0.07em
+}
+
+/* Estilo adicional para controlar la distribución */
+nav ul.Menu li:nth-child(4), nav ul.Menu li:nth-child(5) {
+    width: 45%; /* Los dos elementos en la segunda fila serán más grandes */
+}
+
+nav ul.Menu li:hover {
+    color: #11B4B7;
+}
+nav ul.Menu2 {
+    /* Quitar el estilo de lista por defecto */
+    list-style: none;
+    /* Usar flexbox para distribuir uniformemente los elementos */
+    display: flex;
+    /*Sirve para que se centre*/
+    justify-content: center;
+    /* Eliminar márgenes y relleno de la lista */
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+   
+}
+ 
+nav ul.Menu2 li {
+    position: relative; /* Necesario para posicionar el submenú */
+    width: auto; /* Cada elemento ocupará aproximadamente un tercio del ancho */
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0 20px; /* Añadir margen horizontal (izquierda y derecha) */
+    white-space: nowrap; /* Evitar que el texto se divida en varias líneas */
+    font-size: 10.5pt;
+  
+    
+}
+nav .Menu2 li a {
+    display: block;
+    color: white;  /* Color original del texto */
+    text-decoration: none;  /* Quita el subrayado */
+    transition: color 0.3s ease;  /* Transición suave en el cambio de color */
+}
+
+nav .Menu2 li a:hover {
+    color: #5cddee;  /* Aclara el color cuando pases el mouse */
+    cursor: pointer;  /* Cambia el cursor para indicar que es clickeable */
+    text-shadow: black 0.03em 0.06em 0.07em
+}
+
+nav ul.Menu2 li ul.submenuservicios {
+    display: none; /* Ocultar el submenú por defecto */
+    position: absolute; /* Posicionar el submenú debajo del elemento principal */
+    top: 100%; /* Posicionarlo justo debajo del enlace principal */
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    min-width: 200px;
+    left: 0;
+    z-index: 100;   
+    background-color: #17A2B8;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Añadir sombra para darle un efecto flotante */
+}
+
+nav ul.Menu2 li ul.submenuservicios li {
+    width: 200px; /* Ancho de cada opción del submenú */
+    padding-left: 0;
+    
+}
+
+nav ul.Menu2 li ul.submenuservicios li a {  
+    padding: 7px;
+    display: block;
+    color: white; /* Color de texto en el submenú */
+    background-color: #17A2B8;
+    transition: background-color 0.3s ease;
+    padding-left: 0;
+       
+}
+
+
+
+/* Efecto al pasar el mouse sobre los elementos del submenú */
+nav ul.Menu2 li ul.submenuservicios li a:hover {
+    color: #5cddee;  /* Aclara el color cuando pases el mouse */
+    cursor: pointer;  /* Cambia el cursor para indicar que es clickeable */
+    text-shadow: black 0.03em 0.06em 0.07em;
+  
+    
+}
+
+/* Mostrar el submenú cuando el mouse está sobre el elemento principal */
+nav ul.Menu2 li:hover ul.submenuservicios {
+    display: block;
+}
+
+
+.servicios {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se distribuyan en varias filas */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Espacio entre los elementos */
+}
+
+.servicio {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center; /* Centrar texto dentro de cada servicio */
+    background-color: #f9f9f9;
+    transition: transform 0.2s;
+    font-size: 14px;
+    width: 300px; /* Ajusta este tamaño según lo que necesites */
+    margin: 20px;
+}
+
+.servicio:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+}
+
+.imagen {
+    width: 80px; /* Imagen más pequeña */
+    height: 80px; /* Altura fija */
+    margin-bottom: 10px; /* Espacio debajo de la imagen */
+}
+
+.footer {
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    background-color: #222E3A;
+    display: flex;
+    justify-content: space-between; /* Espacio entre los dos divs */
+    padding: 20px; /* Espaciado interno */
+    flex-wrap: wrap;
+}
+@keyframes pulsate {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.btn-whatsapp {
+    position: fixed;
+    bottom: 20px;  /* Espacio desde la parte inferior */
+    right: 20px;   /* Espacio desde la parte derecha */
+    z-index: 100;  /* Asegura que esté por encima de otros elementos */
+    width: 60px;   /* Ancho del botón */
+    height: 60px;  /* Altura del botón */
+    animation: pulsate 1.5s infinite;  /* Agrega la animación de pulsación */
+}
+
+.btn-whatsapp img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;  /* Hace el botón circular */
+}
+.locales {
+    margin-left: 25px;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    background-color: #222E3A;
+    
+}
+.derechos {
+    margin-top: auto; /* Empuja este div hacia abajo */
+    text-align: center; /* Centra el texto */
+    padding: 0px; /* Añade un poco de espacio alrededor */
+    align-items: center;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    background-color: #222E3A;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+ }
+ 
+.derechos p{
+   margin: 0;    
+}
+
+p{
+    margin: 3px;
+}
+
+.ruc {
+    font-size: 10pt;    
+}
+.carrusel {
+    position: relative;
+    width: 100%;
+    height: 100vb; /* Altura completa de la ventana */
+    overflow: hidden;
+}
+
+.carruselfondo {
+    background-image: url(../Img/sedesimg.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+.fondo-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1; /* Para que el texto y las flechas queden sobre la imagen */
+}
+
+/* Contenedor del texto y las flechas */
+.carruselcontenido {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1; /* Mantiene el contenido sobre la imagen de fondo */
+}
+
+/* Estilo del texto */
+.carruseltexto {
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejor contraste */
+    color: white;
+    padding: 20px 40px;
+    border-radius: 10px; /* Esquinas redondeadas */
+    font-size: 2.5em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra para darle profundidad */
+    margin: 0 20px;  
+    display: none;
+}
+.carruseltexto.visible {
+    display: block;
+}
+
+/* Estilo de las flechas */
+.flecha {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 4em;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.i {
+    left: 20px; /* Flecha izquierda */
+}
+
+.d {
+    right: 20px; /* Flecha derecha */
+}
+
+.flecha:hover {
+    color: #32ccf3;
+}
+
+.flecha:hover, .carruseltexto {
+    transition: all 0.2s ease-in-out;
+}
+

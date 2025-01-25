@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la página que se mostrará en la pestaña del navegador -->
+    <title>Clínica Veterinaria Pancho Cavero</title>
+    <!-- Enlace a la hoja de estilos -->
+    <link rel="stylesheet" href="../Css/styles.css">
+</head>
+<body>
+    <header class="Header1">
+        <!-- Navegación principal -->
+        <nav class="logosalvando">
+            <!-- Imagen del logotipo que se carga desde la carpeta Img -->
+             <a href="www.clinicaveterinariasalvandovidas.com.html">
+            <img src="../Img/logo1.png" alt="Logo1" class="logo">
+            </a>
+            <!-- Lista de elementos del menú de navegación -->
+            <ul class="Menu">
+                <!-- Opción de menú "BARRANCO" -->
+                <li>BARRANCO</li>
+                <!-- Opción de menú "LINCE" -->
+                <li>LINCE</li>
+                <!-- Opción de menú "LOS OLIVOS" -->   
+                <li>LOS OLIVOS</li>
+                <!-- Opción de menú "MIRAFLORES" -->
+                <li>SAN JUAN DE MIRAFLORES</li>
+                <!-- Opción de menú "SAN BORJA" -->
+                <li>SAN BORJA</li>
+            </ul>
+             <!-- Imagen del logotipo que se carga desde la carpeta Img -->
+            <img src="../Img/iconoshaka.png"  class="certificado1">
+            <img src="../Img/iconogatito.png"  class="certificado2">
+            <img src="../Img/iconoperrito.png"  class="certificado3">
+            
+        </nav>
+    </header> 
+    <header class="Header2">
+        <nav class="lista">
+            <ul class="Menu2">
+                <li><a href="nosotros.html" id="nosotros-link">NOSOTROS</a></li>
+                <li><a href="sedes.html">SEDES</a></li>
+                <li> <a href="#">SERVICIOS ▾</a>
+                <ul class="submenuservicios">
+                    <li><a href="serviciosgenerales.html">SERVICIOS GENERALES</a></li>
+                    <li><a href="especialidades.html">ESPECIALIDADES</a></li>
+                    <li><a href="examenescomplementarios.html">EXÁMENES COMPLEMENTARIOS</a></li>
+                </ul>
+                </li>
+                <li> <a href="#">PRODUCTOS ▾</a>
+                    <ul class="submenuservicios">
+                        <li><a href="farmacia.html">FARMACIA</a></li>
+                        <li><a href="petshop.html">PETSHOP</a></li>
+                    </ul>               
+                </li>
+                <li><a href="#">TALLERES</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">TRABAJA CON NOSOTROS</a></li>               
+                <li><!-- Botón para abrir el modal -->
+                    <a href="#" id="openModal">CONTACTO</a>
+                    
+                    <!-- Modal -->
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                          <span class="close">&times;</span>
+                          <h2>¡Envíanos un mensaje!</h2>
+                          
+                          <div class="logomodal">
+                          <img src="../Img/logo1.png" class="fotomodal">
+                           </div>
+                          <div class="formulario">
+                              <form >
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" id="nombre" name="nombre" required class="input"><br>
+                                <label for="telefono">Teléfono:</label>
+                                <input type="tel" id="telefono" name="telefono" required class="input"><br>
+                                <label for="correo">Correo:</label>
+                                <input type="email" id="correo" name="correo" required class="input"><br>
+                                <label for="sede">Sede:</label>
+                                <input type="text" id="sede" name="sede" required class="input"><br>
+                                <label for="mensaje">Mensaje:</label><br>
+                                <textarea  id="mensaje" name="mensaje" required class="input"></textarea><br>
+                                <button type="submit">Enviar</button>
+                              </form>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+            </ul>
+        </nav>
+    </header>
+    <header class="Header3">
+        <h1>¿Qué ofrecemos?</h1>
+        <div class="servicios">
+            <div class="servicio">
+                <img src="../Img/ecografia.png" alt="Ecografía Doppler" class="imagen">
+                <h3>Ecografía Doppler</h3>
+                    <p>
+                        La dermatología veterinaria es la especialidad que se dedica al estudio de las enfermedades de la piel, las uñas y el pelo.
+                    </p>            
+            </div>
+            <div class="servicio">
+                <img src="../Img/electrocardiograma.png" alt="Electrocardiograma(ECG)" class="imagen">
+                <h3>Electrocardiograma (ECG)</h3>
+                    <p>
+                        El ECG es una herramienta para evaluar la actividad eléctrica del corazón.
+                    </p>            
+            </div>
+            <div class="servicio">
+                <img src="../Img/endoscopia.png" alt="Endoscopía" class="imagen">
+                <h3>Endoscopía</h3>
+                <p>
+                    La endoscopia es uno de los mejores y más utilizados métodos de evaluación del tracto gastro intestinal.
+                </p>
+            </div>
+            <div class="servicio">
+                <img src="../Img/laboratorio.png" alt="Laboratorio Clínico" class="imagen">
+                <h3>Laboratorio Clínico</h3>
+                <p>
+                    Los exámenes de laboratorio son fundamentales para el diagnóstico y tratamiento adecuados de nuestros pacientes.
+                </p>
+            </div>
+            <div class="servicio">
+                <img src="../Img/presion.png" alt="Medición de Presión Arterial" class="imagen">
+                <h3>Laboratorio Clínico</h3>
+                <p>
+                    Puede ser utilizada como instrumento auxiliar en el diagnóstico y seguimiento de enfermedades.                
+                </p>
+            </div>
+            <div class="servicio">
+                <img src="../Img/radiologia.png" alt="Radiología Digitalizada" class="imagen">
+                <h3>Radiología Digitalizada</h3>
+                <p>
+                    Se utiliza en la prevención, control y tratamiento de las enfermedades de los animales de compañía.
+                </p>
+            </div>
+            <div class="servicio">
+                <img src="../Img/resonancia.png" alt="Resonancia Magnética y Tomografía" class="imagen">
+                <h3>Resonancia Magnética y Tomografía</h3>
+                <p>
+                    En Medicina Veterinaria ya contamos con éstas herramientas no invasivas de alta tecnología.
+                </p>
+            </div>
+
+
+
+
+
+        </div>
+    </header>
+    <header class="Header4">
+        <h1>
+            <a href="https://wa.me/+51918320249" target="_blank">¡PONTE EN CONTACTO CON NOSOTROS!
+            </a>
+        </h1>
+    </header>
+    <footer>
+    <div class="footer">
+        <div class="locales">
+            <h3>LOCALES Y CONTACTO</h3>
+            <p>Av. República de Panamá 6584, Barranco</p>
+            <p>998 195 193</p>
+            <p>01 446 6179 | 01 637 5132</p>
+            <p>Av. Militar 2026, Lince</p>
+            <p>936 283 095</p>
+            <p>01 517 6681</p>
+            <p>Av. San Luis 2845, San Borja</p>
+            <p>992 125 188</p>
+            <p>01 635 2172</p>
+            <p>Av. Las Palmeras 5351, Los Olivos</p>
+            <p>920 385 123</p>
+            <p>01 769 0605</p>
+            <p>Av. Pedro Miotta 620, San Juan de Miraflores</p>
+            <p>932 008 081</p>
+            <p>01 656 6104 | 01 656 6264 | 01 656 6491</p>
+        </div>
+        
+        <div class="horarios">
+            <h3>HORARIOS</h3>
+            <p>Barranco</p>
+            <p>Atención: Lunes a Domingo - 24 Horas</p>
+            <p>CAVERO & COCHELLA INVERSIONES S.A.C.</p>
+            <p>20546424821</p>
+
+            <p>Lince</p>
+            <p>Atención: Lunes a Sábado - 8 a.m. - 8 p.m.</p>
+            <p>Domingos - 9 a.m. - 6 p.m.</p>
+            <p>M & C VET S.A.C.</p>
+            <p>20601401089</p>
+
+            <p>San Borja</p>
+            <p>Atención: Lunes a Sábado - 8 a.m. - 10 p.m.</p>
+            <p>Domingos - 8 a.m. - 8 p.m.</p>
+            <p>LA HERRADURA ASOCIADOS S.A.C.</p>
+            <p>20606694645</p>
+
+            <p>Los Olivos</p>
+            <p>Atención: Lunes a Sábado - 8 a.m. - 8 p.m.</p>
+            <p>Domingos - 8 a.m. - 7 p.m.</p>
+            <p>HELVETIKA S.A.C.</p>
+            <p>20548683166</p>
+
+            <p>San Juan de Miraflores</p>
+            <p>Atención: Lunes a Sábado - 8 a.m. - 8 p.m.</p>
+            <p>Domingos - 9 a.m. - 6 p.m.</p>
+            <p>ROMASA VET S.A.C.</p>
+            <p>20603407271</p>
+        </div>
+        <div>
+            <a href="www.clinicaveterinariasalvandovidas.com.html">
+                <img src="../Img/logo2.png" alt="panchocv2" class="logo">
+                </a>
+        </div>
+    </div>
+    </footer>
+    <a href="https://wa.me/+51918320249" class="btn-whatsapp" target="_blank">
+        <img src="../Img/wsp.png" alt="WhatsApp">
+    </a>   
+    <script>
+        // Obtener el modal
+        var modal = document.getElementById("myModal");
+    
+        // Obtener el botón que abre el modal
+        var btn = document.getElementById("openModal");
+    
+        // Obtener el elemento <span> que cierra el modal
+        var span = document.getElementsByClassName("close")[0];
+    
+        // Cuando el usuario hace clic en el botón, abre el modal 
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+    
+        // Cuando el usuario hace clic en <span> (x), cierra el modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+    
+        // Cuando el usuario hace clic en cualquier parte fuera del modal, cierra el modal
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    
+        // Cerrar el modal al enviar el formulario
+        var form = modal.querySelector('form');
+        form.onsubmit = function() {
+            // Aquí puedes agregar lógica para enviar el formulario, si es necesario.
+            modal.style.display = "none"; // Cierra el modal al enviar
+            return false; // Evita el envío real del formulario (puedes quitar esto si deseas enviar el formulario)
+        }
+    </script>
+
+</body>
+</html>
